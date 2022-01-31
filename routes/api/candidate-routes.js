@@ -21,7 +21,7 @@ router.get('/candidates', (req, res) => {
         data: rows
       });
     });
-  });
+});
   
 // Get single candidate with party affiliation
 router.get('/candidate/:id', (req, res) => {
